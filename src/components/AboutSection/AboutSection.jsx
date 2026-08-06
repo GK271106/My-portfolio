@@ -5,7 +5,7 @@ function AboutSection() {
     <section id='about' className='about-section'>
       <div className='about-wrapper container'>
         <div className='about-image'>
-          <img src='/Photo.jpeg.' alt='Guru' />
+          <img src='/Gphoto.jpeg' alt='Guru' />
         </div>
         <div className='about-copy'>
           <h1>About Me</h1>
@@ -17,4 +17,3 @@ function AboutSection() {
 }
 
 export default AboutSection;
-// fast, accessible web experiences.
