@@ -1,63 +1,51 @@
-export const categories = ['all', 'web', 'fullstack', 'auth'];
+export const categories = ['all', 'web', 'fullstack', 'ecommerce'];
 
 export const projectsData = [
   {
     id: 1,
-    title: 'BookMyShow Clone',
-    description: 'Full-stack movie ticket booking platform',
+    title: 'Amazon Clone',
+    description: 'Basic e-commerce shopping website',
     longDesc:
-      'A MERN stack clone of BookMyShow with movie listings, seat selection, booking history, and user authentication.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'fullstack',
+      'A simple Amazon clone I built to practice full-stack development. It has product listings, add to cart, and a basic checkout page.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React'],
+    category: 'ecommerce',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 2,
-    title: 'React + Spring Boot App',
-    description: 'Full-stack application with REST APIs',
+    title: 'Laptop Store App',
+    description: 'Simple laptop shopping app',
     longDesc:
-      'A responsive web app built with React frontend and Spring Boot backend, featuring RESTful APIs, CRUD operations, and secure authentication.',
-    tech: ['React', 'Spring Boot', 'Java', 'REST API'],
-    category: 'fullstack',
+      'A beginner project where users can view a list of laptops, check basic details, and add items to a cart.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React'],
+    category: 'ecommerce',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 3,
-    title: 'MERN Todo App',
-    description: 'Task manager with JWT auth',
+    title: 'Bike Rental App',
+    description: 'Basic bike booking app',
     longDesc:
-      'A full-featured todo application with user registration, login, and task management using MongoDB, Express, React, and Node.js.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'auth',
+      'A simple app to show available bikes and let users select one to book. Made as a practice project to learn React basics.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React'],
+    category: 'fullstack',
     featured: false,
     liveUrl: '#',
     githubUrl: '#'
   },
   {
     id: 4,
-    title: 'Portfolio Website',
-    description: 'Personal developer portfolio',
+    title: 'Food Ordering App',
+    description: 'Simple food ordering website',
     longDesc:
-      'A multi-page React portfolio showcasing projects, skills, and experience with dark mode support and responsive design.',
-    tech: ['React', 'CSS', 'JavaScript'],
+      'A beginner-level food ordering app where users can browse a menu, add food items to a cart, and place an order.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'React'],
     category: 'web',
     featured: true,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 5,
-    title: 'Habit Tracker',
-    description: 'Daily habit tracking app',
-    longDesc:
-      'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'web',
-    featured: false,
     liveUrl: '#',
     githubUrl: '#'
   }
